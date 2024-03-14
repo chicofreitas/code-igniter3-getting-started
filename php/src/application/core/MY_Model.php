@@ -1,6 +1,6 @@
 <?php
 
-class Crud_model extends CI_Model {
+class MY_Model extends CI_Model {
     /**
      * protected string $table
      */

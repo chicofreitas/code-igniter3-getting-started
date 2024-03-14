@@ -1,0 +1,9 @@
+#!/bin/bash
+# Check if at least two parameters are provided
+if [ "$#" -lt 2 ]; then
+  echo "Please provide at least two parameters"
+  exit 1
+fi
+
+# Run the provided command with the parameters
+docker exec -it php-apache-ci php index.php commands\/$@
