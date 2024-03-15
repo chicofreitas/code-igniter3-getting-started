@@ -41,4 +41,24 @@ class MY_Model extends CI_Model {
    public function delete($id) {
        $this->db->delete($this->table, array('id' => $id));
    }
+
+   /**
+    * 
+    * @param string $parent The name of the parent table.
+    * @param string $children The name of the children table.
+    * @param string $pivot_table The name of the pivot table.
+    */
+   public function oneToMany(
+        $table = $this->table, 
+        $children, 
+        $foreigh_key = 'TABLE_id', 
+        $references = 'id'
+    ) {
+        //return $this->db->get()->result();
+   }
+
+   public function manyToMany(
+        $left_table, $right_table, $pivot_table, $left_key, $right_key, ) {
+        //return $this->db->get()->result();
+   }
 }
