@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <?php
         $this->load->helper('html'); 
         //echo link_tag('css/mystyles.css');
         //echo link_tag('favicon.ico', 'shortcut icon', 'image/ico');
     ?>
     
-    <title>Code Igniter</title>
+    <title>Company Name</title>
 </head>
 <body class="h-full">
     <div class="min-h-full">
@@ -125,13 +125,24 @@
             </div>
         </nav>
 
+        <!-- begin heading -->
         <header class="bg-white shadow">
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <h1 class="text-3xl font-bold tracking-tight text-gray-900">
-                <?php echo 'Dashboard'; ?>
-            </h1>
+                <div class="breadcrumb">
+                    <a href="#">Home</a> / processos / processos cadastrados
+                </div>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">
+                    <?php echo $title; ?>
+                </h1>
+                <a href="#">
+                    Cadastrar processo
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </a>
             </div>
         </header>
+        <!-- end heading -->
         <main>
             <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             <!-- Your content -->

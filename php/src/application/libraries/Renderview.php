@@ -12,9 +12,10 @@ class Renderview {
 		$this->ci =& get_instance();
 	}
 
-	public function render($view, $data = [])
+	public function render($view, $data = [], $title = 'Dashboard')
 	{
-			$this->ci->load->view('header');
+			$data['title'] = $title;
+			$this->ci->load->view('header', $data);
 			$this->ci->load->view($view, $data);
 			$this->ci->load->view('footer');
 	}
