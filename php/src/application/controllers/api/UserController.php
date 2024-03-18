@@ -1,5 +1,5 @@
 <?php
-// * \Controllers\Api\UserController
+// * \Application\Controllers\Api\UserController
 class UserController extends CI_Controller {
 
     public function __contruct() {
