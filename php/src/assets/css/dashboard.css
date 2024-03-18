@@ -8,6 +8,16 @@
   width: 2rem; 
   height: 2rem;
 }
+
+.nav-item {
+  background-color: #f1f5f9;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: 4px;
+}
 /*
  * Sidebar
  */
@@ -26,6 +36,7 @@
 .sidebar .nav-link {
   font-size: .875rem;
   font-weight: 500;
+  padding: 16px;
 }
 
 .sidebar .nav-link.active {
@@ -49,4 +60,43 @@
 
 .navbar .form-control {
   padding: .75rem 1rem;
+}
+.bg-custom-blue {
+  background-color: #2470dc;  
+}
+
+.widget {
+  background-color: #f1f5f9;
+  border-radius: 20px;
+}
+
+.custom-badge {
+  content: ''; /* Required for pseudo-elements */
+  display: inline-block; /* Make it an inline block to position it next to text */
+  width: 10px; /* Diameter of the circle */
+  height: 10px; /* Diameter of the circle */
+  border-radius: 50%; /* Makes it a circle */
+  margin-right: 5px; /* Space between circle and text */
+}
+
+.bdg-info {
+  background-color: #007bff; /* Color of the circle */
+}
+
+.bdg-warning {
+  background-color: #fcd34d; /* Color of the circle */
+}
+
+.bdg-success {
+  background-color: #22c55e; /* Color of the circle */
+}
+
+.custom-slim-badge {
+  content: ' '; /* Text content of the badge */
+  display: inline-block; /* Make it an inline block to position it next to text */
+  background-color: #007bff; /* Background color of the badge */
+  color: #fff; /* Text color of the badge */
+  padding: 4px 8px; /* Padding inside the badge */
+  border-radius: 10px; /* Rounded corners of the badge */
+  margin-right: 5px; /* Space between badge and text */
 }

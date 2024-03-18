@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -148,7 +148,6 @@
       </ul>
     </div>
 
-    
 	<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
 		<symbol id="calendar3" viewBox="0 0 16 16">
 			<path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
@@ -199,37 +198,37 @@
 		</symbol>
 	</svg>
 
-	<header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
-	<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">Company name</a>
+	<header class="navbar sticky-top bg-custom-blue flex-md-nowrap p-0 shadow" data-bs-theme="dark">
+		<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">Company name</a>
 
-	<ul class="navbar-nav flex-row d-md-none">
-		<li class="nav-item text-nowrap">
-		<button class="nav-link px-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search">
-			<svg class="bi"><use xlink:href="#search"/></svg>
-		</button>
-		</li>
-		<li class="nav-item text-nowrap">
-		<button class="nav-link px-3 text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-			<svg class="bi"><use xlink:href="#list"/></svg>
-		</button>
-		</li>
-	</ul>
+		<ul class="navbar-nav flex-row d-md-none">
+			<li class="nav-item text-nowrap">
+			<button class="nav-link px-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSearch" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle search">
+				<svg class="bi"><use xlink:href="#search"/></svg>
+			</button>
+			</li>
+			<li class="nav-item text-nowrap">
+			<button class="nav-link px-3 text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<svg class="bi"><use xlink:href="#list"/></svg>
+			</button>
+			</li>
+		</ul>
 
-	<div id="navbarSearch" class="navbar-search w-100 collapse">
-		<input class="form-control w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
-	</div>
+		<div id="navbarSearch" class="navbar-search w-100 collapse">
+			<input class="form-control w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
+		</div>
 	</header>
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="sidebar border border-right col-md-1 p-0 bg-body-tertiary">
-				<div class="offcanvas-md offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
+			<div class="sidebar border border-right col p-0 bg-custom-blue" style="width: 30px;">
+				<div class="offcanvas-md offcanvas-end bg-custom-blue" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
 					<div class="offcanvas-header">
 						<h5 class="offcanvas-title" id="sidebarMenuLabel">Company name</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button>
 					</div>
 
-					<div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
+					<div class="offcanvas-body bg-custom-blue d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
 						<ul class="nav flex-column">
 							<li class="nav-item">
 								<a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
@@ -290,23 +289,164 @@
 					</div>
 				</div>
 			</div>
-
-			<main class="col-md-9 ms-sm-auto col-lg-10 px-md-0">
-				<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-					<h1 class="h2">Dashboard</h1>
-					<div class="btn-toolbar mb-2 mb-md-0">
-					<div class="btn-group me-2">
-						<button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-						<button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+	  		<!-- ms-sm-auto -->
+			<main class="col-md-11 col-lg-11 px-10">
+	  			<div class="container-fluid px-4">
+					<div class="mb-4 mt-4">
+						<h1 class="h2">Seja bem vindo, John Doe</h1>
 					</div>
-					<button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle d-flex align-items-center gap-1">
-						<svg class="bi"><use xlink:href="#calendar3"/></svg>
-						This week
-					</button>
+					<div class="row gy-5 gx-5">
+						<div class="col-8 widget">
+							<div class="d-flex text-primary justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-3 align-middle pt-2">Processos de Financiamento</h1>
+								
+								<div class="btn-toolbar mb-2 mb-md-0">
+									<!-- <div class="btn-group me-2">
+										<button type="button" class="btn btn-sm btn-outline-secondary">Compartilhar</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">Exportar</button>
+									</div>
+									<button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle d-flex align-items-center gap-1">
+										<svg class="bi"><use xlink:href="#calendar3"/></svg>
+										Semana
+									</button> -->
+								</div>
+							</div>
+							<canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+						</div>
+						<div class="col-4">
+							<div class="p-4 widget text-primary">
+								<header class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+									<!-- <svg class="bi" width="32" height="32"><use xlink:href="bootstrap-icons.svg#toggles"/></svg> -->
+									<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon" viewBox="0 0 16 16">
+										<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+										<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+									</svg>
+									<h1 class="fs-3 align-middle pt-2">Obras</h1>
+								</header>
+
+								<div class="mb-3">
+									<div class="row">
+										<div class="col">
+											<p><span class="custom-badge bdg-info"></span>Em dias</p>
+										</div>
+										<div class="col text-end">
+											20%
+										</div>
+									</div>
+									<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+										<div class="progress-bar bg-info" style="width: 25%">2</div>
+									</div>
+								</div>
+
+								<div class="mb-3">
+									<div class="row">
+										<div class="col">
+											<p><span class="custom-badge bdg-warning"></span>Atrasada</p>
+										</div>
+										<div class="col text-end">
+											20%
+										</div>
+									</div>
+									<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+										<div class="progress-bar bg-warning" style="width: 70%">12</div>
+									</div>
+								</div>
+
+								<div class="mb-3">
+									<div class="row">
+										<div class="col">
+											<p><span class="custom-badge bdg-success"></span>Atrasada</p>
+										</div>
+										<div class="col text-end">
+											20%
+										</div>
+									</div>
+									<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+										<div class="progress-bar bg-success" style="width: 37%">7</div>
+									</div>
+								</div>
+
+							<div>
+								<p>
+									<span class="custom-slim-badge"></span> Em dias <span>40%</span>
+								</p>
+								<p>
+								<span class="custom-slim-badge"></span> Atrasada <span>40%</span>
+								</p>
+								<p>
+									<span class="custom-slim-badge"></span> Concluída <span>40%</span>
+								</p>
+							</div>
+						</div>
+						</div>
+						<div class="col-4">
+							<div class="p-4 widget text-center text-primary">
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon mb-4" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-2">Clientes</h1>
+							</div>
+						</div>
+
+						<div class="col-4">
+							<div class="p-4 widget text-center text-primary">
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon mb-4" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-2">Processos de Financiamento</h1>
+							</div>
+						</div>
+
+						<div class="col-4">
+							<div class="p-4 widget text-center text-primary">
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon mb-4" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-2">Obras</h1>
+							</div>
+						</div>
+
+						<div class="col-4">
+							<div class="p-4 widget d-flex justify-content-center text-primary flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+								<!-- <svg class="bi" width="32" height="32"><use xlink:href="bootstrap-icons.svg#toggles"/></svg> -->
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-3 align-middle pt-2">Portfólio</h1>
+							</div>
+						</div>
+
+						<div class="col-4">
+							<div class="p-4 widget d-flex justify-content-center text-primary flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+								<!-- <svg class="bi" width="32" height="32"><use xlink:href="bootstrap-icons.svg#toggles"/></svg> -->
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-3 align-middle pt-2">Simulação</h1>
+							</div>
+						</div>
+
+						<div class="col-4">
+							<div class="p-4 widget d-flex justify-content-center text-primary flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+								<!-- <svg class="bi" width="32" height="32"><use xlink:href="bootstrap-icons.svg#toggles"/></svg> -->
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon" viewBox="0 0 16 16">
+									<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/>
+									<path d="M4.5 12.5A.5.5 0 0 1 5 12h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m0-2A.5.5 0 0 1 5 10h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m1.639-3.708 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V8.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V8s1.54-1.274 1.639-1.208M6.25 6a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5"/>
+								</svg>
+								<h1 class="fs-3 align-middle pt-2">Notificações</h1>
+							</div>
+						</div>
 					</div>
 				</div>
-
-				<canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 			</main>
 		</div>
 	</div>
