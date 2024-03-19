@@ -292,10 +292,12 @@
 	  		<!-- ms-sm-auto -->
 			<main class="col-md-11 col-lg-11 px-10">
 	  			<div class="container-fluid px-4">
+					<!-- page contents -->
 					<div class="mb-4 mt-4">
 						<h1 class="h2">Seja bem vindo, John Doe</h1>
 					</div>
 					<div class="row gy-5 gx-5">
+
 						<div class="col-8 widget">
 							<div class="d-flex text-primary justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
 								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi largeicon" viewBox="0 0 16 16">
@@ -317,6 +319,7 @@
 							</div>
 							<canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 						</div>
+
 						<div class="col-4">
 							<div class="p-4 widget text-primary">
 								<header class="d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
@@ -369,6 +372,7 @@
 										<div class="progress-bar bg-success" style="width: 37%">7</div>
 									</div>
 								</div>
+	  						</div>
 
 							<div>
 								<p>
@@ -446,6 +450,7 @@
 							</div>
 						</div>
 					</div>
+					<!-- end page contents -->
 				</div>
 			</main>
 		</div>
