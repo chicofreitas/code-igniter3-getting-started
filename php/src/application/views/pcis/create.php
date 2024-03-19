@@ -1,12 +1,14 @@
 <div class="row mb-4 mt-4">
         <div class="col">
-            <h1 class="fs-3 fw-bold">Cadastro de Projetos</h1>
+            <h1 class="fs-3 fw-bold">Portfólio de Projetos</h1>
         </div>
 
         <div class="col text-end">
-            <a href="#" class="border rouded-4 rounded-circle close-mark">  
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="3em" height="3em"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+            <a href="#" class="btn btn-primary" role="button">
+                Cadastrar projeto
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                </svg>
             </a>
         </div>
     </div>
@@ -15,38 +17,38 @@
     <div class="row">
         <div class="col">
             <label for="inputEmail4" class="form-label">Nome do projeto</label>
-            <input type="text" class="form-control" placeholder="Residencial Teresina Verde" aria-label="Residencial Teresina Verde">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
         </div>
         <div class="col">
             <label for="inputEmail4" class="form-label">Valor do projeto</label>
-            <input type="text" class="form-control" placeholder="0" aria-label="0">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
     </div>
 
     <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Descrição do Projeto</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Casa modelo simples S1</textarea>
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
     <div class="row">
         <div class="col">
             <label for="inputEmail4" class="form-label">Qtd Quartos</label>
-            <input type="text" class="form-control" placeholder="0" aria-label="0">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
 
         <div class="col">
             <label for="inputEmail4" class="form-label">Qtd Quartos</label>
-            <input type="text" class="form-control" placeholder="0" aria-label="0">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
 
         <div class="col">
             <label for="inputEmail4" class="form-label">Qtd Banheiros</label>
-            <input type="text" class="form-control" placeholder="0" aria-label="0">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
 
         <div class="col">
             <label for="inputEmail4" class="form-label">Qtd Vagas</label>
-            <input type="text" class="form-control" placeholder="0" aria-label="0">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
         
     </div>
@@ -90,9 +92,7 @@
 
             <div class="col-4">
                 <div class="text-center py-3">
-                    <span class="invisible-block"></span>
                     <button type="button" class="btn btn-outline-primary">Adicionar Imagem/Vídeo</button>
-                    <span class="mb-4"></span>
                 </div>
             </div>
         </div>
@@ -145,12 +145,15 @@
 
                     <button type="button" class="btn btn-outline-primary my-10">Preencher Dados</button>
                 </div>
+                <!-- <div class="border rounded-4 text-center py-3">
+                    <button type="button" class="btn btn-outline-primary">Adicionar Imagem/Vídeo</button>
+                </div> -->
             </div>
         </div>
     </fieldset>
-    <!-- Upload de Documentos -->
-    <div class="d-grid gap-2 mb-4">
-        <button class="btn btn-primary" type="button">Criar Projeto</button>
+        <!-- Upload de Documentos -->
+    <div class="my-3">
+        <button type="submit" class="btn btn-primary">Criar Projeto</button>
     </div>
 </form>
 </div>
