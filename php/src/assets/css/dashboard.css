@@ -100,3 +100,20 @@
   border-radius: 10px; /* Rounded corners of the badge */
   margin-right: 5px; /* Space between badge and text */
 }
+
+.custom-card {
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+
+}
+
+.custom-card img {
+  width: 100%; /* Make the image fill the entire width of the card */
+  border-top-left-radius: 15px; /* Round top-left corner of the image */
+  border-top-right-radius: 15px; /* Round top-right corner of the image */
+}
+
+.card-content {
+  padding: 20px; /* Add padding to the card content */
+}
